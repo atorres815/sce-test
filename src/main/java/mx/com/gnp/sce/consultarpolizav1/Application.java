@@ -30,7 +30,7 @@ public class Application {
 
 	@PostConstruct
 	public void init() {
-		// ***** Servidor de Objetos de una poliza
+		
 		AqSesion sesion = new AqSesion();
 		sesion.setCdUsuario(cdUsuario);
 		sesion.setDsPassword(dsPassword);
